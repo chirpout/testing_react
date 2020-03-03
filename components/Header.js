@@ -34,7 +34,9 @@ const Header = () => (
                     </DropdownMenu>
                 </UncontrolledDropdown>
               </Nav>
-              <Button outline href="/login">LOG IN</Button>
+              <Link href="/login" passHref>
+                <Button outline component="a">LOG IN</Button>
+              </Link>
       </Navbar>
       <hr />
   </div>

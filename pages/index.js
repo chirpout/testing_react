@@ -1,6 +1,7 @@
 import DefaultLayout from '../components/DefaultLayout';
-import { Button, Col, Container, Jumbotron, Row } from 'reactstrap';
-import styles from './index.module.css';
+import Link from "next/link";
+import { Button, Col, Container, Row } from 'reactstrap';
+import styles from './css/index.module.css';
 
 export default function Index() {
     return (
@@ -8,9 +9,13 @@ export default function Index() {
             <Container className={styles.container}>
                 <h1 className="display-3">Your concern, amplified</h1>
                 <p className="lead">Contribute to our platform dedicated to increasing transparency in the workplace.</p>
-                <span className="buttongroup">
-                    <Button outline className={styles.mainbutton} href="/browse">FIND A WORKPLACE</Button>{' '}{' '}
-                    <Button outline className={styles.mainbutton} href="/report">REPORT A CONCERN</Button>
+                <span>
+                    <Link href="/browse" passHref>
+                        <Button outline component="a" className={styles.mainbutton}>FIND A WORKPLACE</Button>
+                    </Link>
+                    <Link href="/report" passHref>
+                        <Button outline component="a" className={styles.mainbutton}>REPORT A CONCERN</Button>
+                    </Link>
                 </span>
             </Container>
             <hr />

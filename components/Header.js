@@ -10,15 +10,13 @@ import {
     DropdownItem,
   } from 'reactstrap';
 
-const linkStyle = {
-  marginRight: 15
-};
-
 const Header = () => (
   <div>
       <Navbar light expand="md">
-          <NavbarBrand href="/">ChirpOut</NavbarBrand>
-              <Nav className="mr-auto" navbar>
+        <Link href="/" passHref>
+          <NavbarBrand component="a">ChirpOut</NavbarBrand>
+        </Link>
+              <Nav className="ml-auto" navbar>
               <UncontrolledDropdown nav inNavbar>
                     <DropdownToggle nav caret>LEARN MORE</DropdownToggle>
                     <DropdownMenu right>

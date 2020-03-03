@@ -79,15 +79,12 @@ var _jsxFileName = "/Users/stanfchristina/Desktop/capstone/testing_react/compone
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-var linkStyle = {
-  marginRight: 15
-};
 
 var Header = function Header() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 14
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"], {
@@ -95,22 +92,30 @@ var Header = function Header() {
     expand: "md",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
+    passHref: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavbarBrand"], {
-    href: "/",
+    component: "a",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 17
     },
     __self: this
-  }, "ChirpOut"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
-    className: "mr-auto",
+  }, "ChirpOut")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
+    className: "ml-auto",
     navbar: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 19
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["UncontrolledDropdown"], {
@@ -118,7 +123,7 @@ var Header = function Header() {
     inNavbar: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 20
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownToggle"], {
@@ -126,32 +131,32 @@ var Header = function Header() {
     caret: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 21
     },
     __self: this
   }, "LEARN MORE"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownMenu"], {
     right: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 22
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 23
     },
     __self: this
   }, "Workplace Verification"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 26
     },
     __self: this
   }, "Privacy Guarantee"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 29
     },
     __self: this
   }, "Terms of Use")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -159,7 +164,7 @@ var Header = function Header() {
     passHref: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 35
     },
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Button"], {
@@ -167,13 +172,13 @@ var Header = function Header() {
     component: "a",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 36
     },
     __self: this
   }, "LOG IN"))), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 39
     },
     __self: this
   }));
@@ -26135,28 +26140,38 @@ function Report() {
       lineNumber: 6
     },
     __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+  }, __jsx(ReportIntroduction, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
+    },
+    __self: this
+  }));
+}
+
+var ReportIntroduction = function ReportIntroduction() {
+  return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
     },
     __self: this
   }, __jsx("h1", {
     className: "display-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 16
     },
     __self: this
   }, "Report a workplace concern"), __jsx("p", {
     className: "lead",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 17
     },
     __self: this
-  }, "How it works:...")));
-}
+  }, "How it works:..."));
+};
 
 /***/ }),
 

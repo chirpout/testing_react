@@ -171,14 +171,11 @@ var _jsxFileName = "/Users/stanfchristina/Desktop/capstone/testing_react/compone
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const linkStyle = {
-  marginRight: 15
-};
 
 const Header = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 14
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"], {
@@ -186,22 +183,30 @@ const Header = () => __jsx("div", {
   expand: "md",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/",
+  passHref: true,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavbarBrand"], {
-  href: "/",
+  component: "a",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 17
   },
   __self: undefined
-}, "ChirpOut"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
-  className: "mr-auto",
+}, "ChirpOut")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
+  className: "ml-auto",
   navbar: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 19
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["UncontrolledDropdown"], {
@@ -209,7 +214,7 @@ const Header = () => __jsx("div", {
   inNavbar: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 20
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownToggle"], {
@@ -217,32 +222,32 @@ const Header = () => __jsx("div", {
   caret: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 21
   },
   __self: undefined
 }, "LEARN MORE"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownMenu"], {
   right: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
+    lineNumber: 22
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownItem"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 23
   },
   __self: undefined
 }, "Workplace Verification"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownItem"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28
+    lineNumber: 26
   },
   __self: undefined
 }, "Privacy Guarantee"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownItem"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31
+    lineNumber: 29
   },
   __self: undefined
 }, "Terms of Use")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -250,7 +255,7 @@ const Header = () => __jsx("div", {
   passHref: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 35
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Button"], {
@@ -258,13 +263,13 @@ const Header = () => __jsx("div", {
   component: "a",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 36
   },
   __self: undefined
 }, "LOG IN"))), __jsx("hr", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 39
   },
   __self: undefined
 }));
@@ -4440,14 +4445,12 @@ function Index() {
     },
     __self: this
   }, __jsx("h1", {
-    className: "display-3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, "Your concern, amplified"), __jsx("p", {
-    className: "lead",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11

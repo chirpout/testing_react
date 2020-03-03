@@ -7,8 +7,8 @@ export default function Index() {
     return (
         <DefaultLayout>
             <Container className={styles.container}>
-                <h1 className="display-3">Your concern, amplified</h1>
-                <p className="lead">Contribute to our platform dedicated to increasing transparency in the workplace.</p>
+                <h1>Your concern, amplified</h1>
+                <p>Contribute to our platform dedicated to increasing transparency in the workplace.</p>
                 <span>
                     <Link href="/browse" passHref>
                         <Button outline component="a" className={styles.mainbutton}>FIND A WORKPLACE</Button>

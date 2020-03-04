@@ -4152,12 +4152,12 @@ function toComment(sourceMap) {
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_82519ec661270f7f484f ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_0fb095e325d7ebf261c3 ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_82519ec661270f7f484f */ "dll-reference dll_82519ec661270f7f484f"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_0fb095e325d7ebf261c3 */ "dll-reference dll_0fb095e325d7ebf261c3"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -6594,12 +6594,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_82519ec661270f7f484f ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_0fb095e325d7ebf261c3 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_82519ec661270f7f484f */ "dll-reference dll_82519ec661270f7f484f"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_0fb095e325d7ebf261c3 */ "dll-reference dll_0fb095e325d7ebf261c3"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -8485,7 +8485,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_global_styles_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./css/global-styles.css */ "./pages/css/global-styles.css");
 /* harmony import */ var _css_global_styles_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_global_styles_css__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/Users/stanfchristina/Desktop/capstone/testing_react/pages/_app.js";
+var _jsxFileName = "/Users/geru/Desktop/testing_react/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
  // This default export is required in a new `pages/_app.js` file.
@@ -8573,19 +8573,19 @@ if (true) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! /Users/stanfchristina/Desktop/capstone/testing_react/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! /Users/geru/Desktop/testing_react/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_82519ec661270f7f484f":
+/***/ "dll-reference dll_0fb095e325d7ebf261c3":
 /*!*******************************************!*\
-  !*** external "dll_82519ec661270f7f484f" ***!
+  !*** external "dll_0fb095e325d7ebf261c3" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_82519ec661270f7f484f;
+module.exports = dll_0fb095e325d7ebf261c3;
 
 /***/ })
 

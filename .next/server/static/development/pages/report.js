@@ -107,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/stanfchristina/Desktop/capstone/testing_react/components/DefaultLayout.js";
+var _jsxFileName = "/Users/geru/Desktop/testing_react/components/DefaultLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -166,7 +166,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/stanfchristina/Desktop/capstone/testing_react/components/Header.js";
+var _jsxFileName = "/Users/geru/Desktop/testing_react/components/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -4404,7 +4404,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_DefaultLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/DefaultLayout */ "./components/DefaultLayout.js");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/stanfchristina/Desktop/capstone/testing_react/pages/report.js";
+var _jsxFileName = "/Users/geru/Desktop/testing_react/pages/report.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -4446,7 +4446,16 @@ const ReportIntroduction = () => {
       lineNumber: 17
     },
     __self: undefined
-  }, "How it works:..."));
+  }, "How it works:..."), __jsx("iframe", {
+    src: "https://ischooluw.co1.qualtrics.com/jfe/form/SV_aa67eixcMktPOmh",
+    height: "800px",
+    width: "600px",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }));
 };
 
 /***/ }),
@@ -4458,7 +4467,7 @@ const ReportIntroduction = () => {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/stanfchristina/Desktop/capstone/testing_react/pages/report.js */"./pages/report.js");
+module.exports = __webpack_require__(/*! /Users/geru/Desktop/testing_react/pages/report.js */"./pages/report.js");
 
 
 /***/ }),

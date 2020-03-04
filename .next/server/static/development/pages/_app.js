@@ -107,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _css_global_styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/global-styles.css */ "./pages/css/global-styles.css");
 /* harmony import */ var _css_global_styles_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_global_styles_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/stanfchristina/Desktop/capstone/testing_react/pages/_app.js";
+var _jsxFileName = "/Users/geru/Desktop/testing_react/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 

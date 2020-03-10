@@ -107,13 +107,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _css_global_styles_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/global-styles.css */ "./pages/css/global-styles.css");
 /* harmony import */ var _css_global_styles_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_global_styles_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/geru/Desktop/testing_react/pages/_app.js";
+var _jsxFileName = "/Users/stanfchristina/Desktop/capstone/testing_react/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
- // This default export is required in a new `pages/_app.js` file.
+ // This file's current sole purpose is to import the global style sheet.
+// This default export is required in a new `pages/_app.js` file.
 
 function App({
   Component,
@@ -122,7 +123,7 @@ function App({
   return __jsx(Component, _extends({}, pageProps, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   }));

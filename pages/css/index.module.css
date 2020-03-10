@@ -4,6 +4,12 @@
     padding-bottom: 5em;
 }
 
+.buttons {
+    padding-top: 3em;
+}
+
 .mainbutton {
     padding: 1em 2em 1em 2em;
+    margin-left: 36px;
+    margin-right: 36px;
 }

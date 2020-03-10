@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -107,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/geru/Desktop/testing_react/components/DefaultLayout.js";
+var _jsxFileName = "/Users/stanfchristina/Desktop/capstone/testing_react/components/DefaultLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -166,16 +166,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/geru/Desktop/testing_react/components/Header.js";
+/* harmony import */ var _css_header_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/header.module.css */ "./components/css/header.module.css");
+/* harmony import */ var _css_header_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_header_module_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Users/stanfchristina/Desktop/capstone/testing_react/components/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
 const Header = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 15
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"], {
@@ -183,7 +186,7 @@ const Header = () => __jsx("div", {
   expand: "md",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 16
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -191,14 +194,14 @@ const Header = () => __jsx("div", {
   passHref: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 17
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavbarBrand"], {
   component: "a",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 18
   },
   __self: undefined
 }, "ChirpOut")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
@@ -206,7 +209,7 @@ const Header = () => __jsx("div", {
   navbar: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 20
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["UncontrolledDropdown"], {
@@ -214,7 +217,7 @@ const Header = () => __jsx("div", {
   inNavbar: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 21
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownToggle"], {
@@ -222,32 +225,32 @@ const Header = () => __jsx("div", {
   caret: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 22
   },
   __self: undefined
 }, "LEARN MORE"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownMenu"], {
   right: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownItem"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 24
   },
   __self: undefined
 }, "Workplace Verification"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownItem"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 27
   },
   __self: undefined
 }, "Privacy Guarantee"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["DropdownItem"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
+    lineNumber: 30
   },
   __self: undefined
 }, "Terms of Use")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -255,26 +258,41 @@ const Header = () => __jsx("div", {
   passHref: true,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 36
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Button"], {
   outline: true,
   component: "a",
+  className: _css_header_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.accountbutton,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 37
   },
   __self: undefined
 }, "LOG IN"))), __jsx("hr", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 39
+    lineNumber: 40
   },
   __self: undefined
 }));
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./components/css/header.module.css":
+/*!******************************************!*\
+  !*** ./components/css/header.module.css ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"accountbutton": "header_accountbutton__1aTB8"
+};
 
 /***/ }),
 
@@ -4389,6 +4407,20 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
+/***/ "./pages/css/report.module.css":
+/*!*************************************!*\
+  !*** ./pages/css/report.module.css ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"qualtrics": "report_qualtrics__2aQnM"
+};
+
+/***/ }),
+
 /***/ "./pages/report.js":
 /*!*************************!*\
   !*** ./pages/report.js ***!
@@ -4404,70 +4436,70 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_DefaultLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/DefaultLayout */ "./components/DefaultLayout.js");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/geru/Desktop/testing_react/pages/report.js";
+/* harmony import */ var _css_report_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/report.module.css */ "./pages/css/report.module.css");
+/* harmony import */ var _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_report_module_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Users/stanfchristina/Desktop/capstone/testing_react/pages/report.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 function Report() {
   return __jsx(_components_DefaultLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, __jsx(ReportIntroduction, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
+    },
+    __self: this
+  }), __jsx("iframe", {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.qualtrics,
+    src: "https://ischooluw.co1.qualtrics.com/jfe/form/SV_aa67eixcMktPOmh",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
     },
     __self: this
   }));
 }
 
 const ReportIntroduction = () => {
-  return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: undefined
-  }, __jsx("h1", {
-    className: "display-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: undefined
-  }, "Report a workplace concern"), __jsx("p", {
-    className: "lead",
+  return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: undefined
-  }, "How it works:..."), __jsx("iframe", {
-    src: "https://ischooluw.co1.qualtrics.com/jfe/form/SV_aa67eixcMktPOmh",
-    height: "800px",
-    width: "600px",
+  }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: undefined
-  }));
+  }, "Report a workplace concern"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }, "How it works:..."));
 };
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!*******************************!*\
   !*** multi ./pages/report.js ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/geru/Desktop/testing_react/pages/report.js */"./pages/report.js");
+module.exports = __webpack_require__(/*! /Users/stanfchristina/Desktop/capstone/testing_react/pages/report.js */"./pages/report.js");
 
 
 /***/ }),

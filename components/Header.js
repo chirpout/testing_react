@@ -9,6 +9,7 @@ import {
     DropdownMenu,
     DropdownItem,
   } from 'reactstrap';
+import styles from './css/header.module.css';
 
 const Header = () => (
   <div>
@@ -33,7 +34,7 @@ const Header = () => (
                 </UncontrolledDropdown>
               </Nav>
               <Link href="/login" passHref>
-                <Button outline component="a">LOG IN</Button>
+                <Button outline component="a" className={styles.accountbutton}>LOG IN</Button>
               </Link>
       </Navbar>
       <hr />

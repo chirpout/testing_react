@@ -1,6 +1,6 @@
 import DefaultLayout from '../components/DefaultLayout';
 import Link from "next/link";
-import { Button, Col, Container, Row } from 'reactstrap';
+import { Button, Col, Container, Row, Nav, NavItem } from 'reactstrap';
 import styles from './css/index.module.css';
 
 export default function Index() {
@@ -9,14 +9,14 @@ export default function Index() {
             <Container className={styles.container}>
                 <h1>Your concern, amplified</h1>
                 <p>Contribute to our platform dedicated to increasing transparency in the workplace.</p>
-                <span>
+                <div className={styles.buttons}>                    
                     <Link href="/browse" passHref>
-                        <Button outline component="a" className={styles.mainbutton}>FIND A WORKPLACE</Button>
+                        <Button outline component="a" size="lg" className={styles.mainbutton}>FIND A WORKPLACE</Button>
                     </Link>
                     <Link href="/report" passHref>
-                        <Button outline component="a" className={styles.mainbutton}>REPORT A CONCERN</Button>
+                        <Button outline component="a" size="lg" className={styles.mainbutton}>REPORT A CONCERN</Button>
                     </Link>
-                </span>
+                </div>
             </Container>
             <hr />
             <Container className={styles.container}>

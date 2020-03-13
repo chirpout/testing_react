@@ -5530,10 +5530,17 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".report_qualtrics__2aQnM {\n    border: none;\n    height: 600px;\n    width: 90%;\n}", "",{"version":3,"sources":["report.module.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,aAAa;IACb,UAAU;AACd","file":"report.module.css","sourcesContent":[".qualtrics {\n    border: none;\n    height: 600px;\n    width: 90%;\n}"]}]);
+exports.push([module.i, ".report_qualtrics__2aQnM {\n    border: none;\n    height: 600px;\n    width: 90%;\n}\n\n.report_introductiontext__26AaH {\n    padding: 2em 2em 2em 2em;\n    margin: 2em 2em 2em 2em;\n}\n\n.report_explanationtitle__3HAM3 {\n    margin-top: 1em;\n}\n\n.report_explanationtext__30V2b {\n    margin-top: 4em;\n}\n\n.report_surveycontainer__1UGL0 {\n    margin: 15em 5em 10em 5em;\n}\n\n.report_buttoncontainer__rYkPh {\n    margin-top: 5em;\n}\n\n.report_startbutton__2QHlL {\n    padding: 1em 2em 1em 2em;\n    margin-left: 36px;\n    margin-right: 36px;\n}\n\n.report_maincontainer__4s5Gv {\n    text-align: center;\n}\n", "",{"version":3,"sources":["report.module.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,aAAa;IACb,UAAU;AACd;;AAEA;IACI,wBAAwB;IACxB,uBAAuB;AAC3B;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,yBAAyB;AAC7B;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,wBAAwB;IACxB,iBAAiB;IACjB,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;AACtB","file":"report.module.css","sourcesContent":[".qualtrics {\n    border: none;\n    height: 600px;\n    width: 90%;\n}\n\n.introductiontext {\n    padding: 2em 2em 2em 2em;\n    margin: 2em 2em 2em 2em;\n}\n\n.explanationtitle {\n    margin-top: 1em;\n}\n\n.explanationtext {\n    margin-top: 4em;\n}\n\n.surveycontainer {\n    margin: 15em 5em 10em 5em;\n}\n\n.buttoncontainer {\n    margin-top: 5em;\n}\n\n.startbutton {\n    padding: 1em 2em 1em 2em;\n    margin-left: 36px;\n    margin-right: 36px;\n}\n\n.maincontainer {\n    text-align: center;\n}\n"]}]);
 // Exports
 exports.locals = {
-	"qualtrics": "report_qualtrics__2aQnM"
+	"qualtrics": "report_qualtrics__2aQnM",
+	"introductiontext": "report_introductiontext__26AaH",
+	"explanationtitle": "report_explanationtitle__3HAM3",
+	"explanationtext": "report_explanationtext__30V2b",
+	"surveycontainer": "report_surveycontainer__1UGL0",
+	"buttoncontainer": "report_buttoncontainer__rYkPh",
+	"startbutton": "report_startbutton__2QHlL",
+	"maincontainer": "report_maincontainer__4s5Gv"
 };
 
 /***/ }),
@@ -26690,55 +26697,144 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 function Report() {
   return __jsx(_components_DefaultLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx(ReportIntroduction, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }), __jsx("iframe", {
-    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.qualtrics,
-    src: "https://ischooluw.co1.qualtrics.com/jfe/form/SV_aa67eixcMktPOmh",
+  }, __jsx(ReportIntroduction, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }));
 }
 
+var scrollToRef = function scrollToRef(ref) {
+  return window.scrollTo(0, ref.current.offsetTop);
+}; // General scroll to element function
+
+
 var ReportIntroduction = function ReportIntroduction() {
-  return __jsx("div", {
+  var myRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
+
+  var executeScroll = function executeScroll() {
+    return scrollToRef(myRef);
+  };
+
+  return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.maincontainer,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("div", {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.introductiontext,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 25
     },
     __self: this
-  }, "Report a workplace concern"), __jsx("p", {
+  }, "Report a workplace concern"), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 26
     },
     __self: this
-  }, "How it works:..."));
+  }), __jsx("h2", {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.explanationtitle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "How it works:"), __jsx("div", {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.explanationtext,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.")), __jsx("div", {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.buttoncontainer,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Button"], {
+    onClick: executeScroll,
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.startbutton,
+    outline: true,
+    size: "lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "START"))), __jsx("div", {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.surveycontainer,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx("iframe", {
+    ref: myRef,
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.qualtrics,
+    src: "https://ischooluw.co1.qualtrics.com/jfe/form/SV_aa67eixcMktPOmh",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  })));
 };
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!*********************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Freport&absolutePagePath=%2FUsers%2Fstanfchristina%2FDesktop%2Fcapstone%2Ftesting_react%2Fpages%2Freport.js ***!
   \*********************************************************************************************************************************************************/
@@ -26761,5 +26857,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=report.js.map

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -4416,7 +4416,14 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 // Exports
 module.exports = {
-	"qualtrics": "report_qualtrics__2aQnM"
+	"qualtrics": "report_qualtrics__2aQnM",
+	"introductiontext": "report_introductiontext__26AaH",
+	"explanationtitle": "report_explanationtitle__3HAM3",
+	"explanationtext": "report_explanationtext__30V2b",
+	"surveycontainer": "report_surveycontainer__1UGL0",
+	"buttoncontainer": "report_buttoncontainer__rYkPh",
+	"startbutton": "report_startbutton__2QHlL",
+	"maincontainer": "report_maincontainer__4s5Gv"
 };
 
 /***/ }),
@@ -4444,55 +4451,140 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 function Report() {
   return __jsx(_components_DefaultLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx(ReportIntroduction, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }), __jsx("iframe", {
-    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.qualtrics,
-    src: "https://ischooluw.co1.qualtrics.com/jfe/form/SV_aa67eixcMktPOmh",
+  }, __jsx(ReportIntroduction, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }));
 }
 
+const scrollToRef = ref => window.scrollTo(0, ref.current.offsetTop); // General scroll to element function
+
+
 const ReportIntroduction = () => {
-  return __jsx("div", {
+  const myRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
+
+  const executeScroll = () => scrollToRef(myRef);
+
+  return __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.maincontainer,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 23
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.introductiontext,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
     },
     __self: undefined
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 25
     },
     __self: undefined
-  }, "Report a workplace concern"), __jsx("p", {
+  }, "Report a workplace concern"), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 26
     },
     __self: undefined
-  }, "How it works:..."));
+  }), __jsx("h2", {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.explanationtitle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: undefined
+  }, "How it works:"), __jsx("div", {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.explanationtext,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: undefined
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: undefined
+  }, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: undefined
+  }, "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: undefined
+  }, "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: undefined
+  }, "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: undefined
+  }, "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.")), __jsx("div", {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.buttoncontainer,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: undefined
+  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Button"], {
+    onClick: executeScroll,
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.startbutton,
+    outline: true,
+    size: "lg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: undefined
+  }, "START"))), __jsx("div", {
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.surveycontainer,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: undefined
+  }, __jsx("iframe", {
+    ref: myRef,
+    className: _css_report_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.qualtrics,
+    src: "https://ischooluw.co1.qualtrics.com/jfe/form/SV_aa67eixcMktPOmh",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: undefined
+  })));
 };
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/report.js ***!
   \*******************************/
